@@ -4,6 +4,7 @@ from ctypes import c_double
 
 import cv2
 import numpy as np
+from scipy.special import gamma
 
 import libsvm.svmutil as svmutil
 from libsvm.svmutil import gen_svm_nodearray
